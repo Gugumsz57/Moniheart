@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "583649673252",
+    "firebase_url": "https://moniheart-faf5f-default-rtdb.firebaseio.com",
+    "project_id": "moniheart-faf5f",
+    "storage_bucket": "moniheart-faf5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583649673252:android:670ef463382b5b4caa98b1",
+        "android_client_info": {
+          "package_name": "com.example.moniheart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583649673252-nmsa393ll2hpm4iqb37tlivutec0m2mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhCyoHPnlN2UEI1rFf0v0PMIEcR0fZojU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583649673252-nmsa393ll2hpm4iqb37tlivutec0m2mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

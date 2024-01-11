@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.riwayat.RiwayatFragment">
+
+    <ImageView
+        android:id="@+id/img_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationZ="2dp"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/riwayat_atas"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:translationZ="2dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Riwayatkondisi"
+            android:text="RIWAYAT"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationZ="2dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max bpm : "
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_maxbpm"
+            android:text="120"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Min bpm : "
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_minbpm"
+            android:text="50"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="rata-rata bpm : "
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ratabpm"
+            android:text="90"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:translationZ="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="550dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvriwayat"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
